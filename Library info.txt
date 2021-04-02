@@ -1,0 +1,5 @@
+No addiotional library package is needed if your python version is above 3.0 since required library if installed by default in all python above 3.0 version.
+If your python version is below version 3.0,an extra library package needs to be installed apart from python default library package.
+Name of the package in python is secure-smtplib.
+Install it from command prompt by typing
+>pip install smtplib.
