@@ -6,7 +6,7 @@ msg['Subject'] = input("Subject: ")
 msg['From'] = "test"
 x = input("Body: ")
 msg.set_content(x)
-msg['To'] = input('To: ')
+msg['To'] = input('Recipient: ')
 
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.login("testingauto4@gmail.com", "testing@1")
